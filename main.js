@@ -1,9 +1,9 @@
 
 // intial store regents
 var itemsArray = [
-    {    'name': 'blueReg',    'img': './image/blueReg.jpg', 'type': 'reg',  },
-    {    'name': 'redReg',    'img': "./image/redReg.jpg",'type': 'reg',     },
-    {    'name': 'greenReg',    'img': './image/greenReg.jpg', 'type': 'reg',  },
+    {    'name': 'blueReg',    'img': 'blueReg.jpg', 'type': 'reg',  },
+    {    'name': 'redReg',    'img': "redReg.jpg",'type': 'reg',     },
+    {    'name': 'greenReg',    'img': 'greenReg.jpg', 'type': 'reg',  },
   ];
 
 // intial inventory
@@ -194,12 +194,12 @@ potionBag.addEventListener('click',function(event){
 // potion results
 currentPotionInventory = [];
 potionComboArray = [
-  {    'name': 'bluePotion',    'img': './image/bluePotion.png', 'type': 'pot',  },
-  {    'name': 'redPotion',    'img': './image/redPotion.png', 'type': 'pot', },
-  {    'name': 'greenPotion',    'img': './image/greenPotion.png', 'type': 'pot', },
-  {    'name': 'purplePotion',    'img': './image/purplePotion.png', 'type': 'pot', },
-  {    'name': 'cyanPotion',    'img': './image/cyanPotion.png', 'type': 'pot', },
-  {    'name': 'blackPotion',    'img': './image/blackPotion.png', 'type': 'pot', },
+  {    'name': 'bluePotion',    'img': 'bluePotion.png', 'type': 'pot',  },
+  {    'name': 'redPotion',    'img': 'redPotion.png', 'type': 'pot', },
+  {    'name': 'greenPotion',    'img': 'greenPotion.png', 'type': 'pot', },
+  {    'name': 'purplePotion',    'img': 'purplePotion.png', 'type': 'pot', },
+  {    'name': 'cyanPotion',    'img': 'cyanPotion.png', 'type': 'pot', },
+  {    'name': 'blackPotion',    'img': 'blackPotion.png', 'type': 'pot', },
 
 ];
 
