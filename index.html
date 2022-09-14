@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potent Potables</title>
+    <link rel="stylesheet" href='style.css'>
+</head>
+<body>
+
+    <div id = "titleContainer">
+        <div id = "title">
+        <h1>EZ Potion Game</h1> 
+    </div>
+    </div>
+
+    <div id="buttonContainer">
+    <button class = "NLS" onclick="newGame()"> New Game </button>
+    <button class = "NLS" onclick="saveGame()"> Save Game </button>
+    <button class = "NLS" onclick="loadGame()"> Load Game </button>
+    </div>
+
+    <div id="infoContainer">
+        <p class = "information"> Game Current info: </p>
+           <p id="day"></p>
+           <p id="gold"></p>
+        <p class = 'information'>Every 10 days tax man will take 250 gold.</p>
+    </div>
+    </div>
+
+    <p> Click on the Regents to purchase, $50 each</p>
+    <div id="store"></div>
+
+    <p> Your Inventory of Regents (click to select)</p>
+    <div id = "inventoryContain">
+    <div id="inventory"></div>
+    </div>
+
+    <div id="sellTest">
+        <button id="sellItem" onclick="sellRegent()">Sell Your last Regent purchased!</button>
+        <button id="mixPotion" onclick="mixPotion()">Select 2 Regents and mix! (takes 1 day)</button>
+    </div>
+
+
+    <p> Your Inventory of Potions</p>
+    <div id = "potionContain">
+    <div id="potions"></div>
+    </div>
+
+    <div id = "potionButtons">
+        <button id="sellPotion" onclick="sellPotion()">Sell selected Potion (takes 1 day)</button>
+    </div>
+
+
+    <div id="">  </div>
+    <script src ="main.js" ></script>
+</body>
+</html>
